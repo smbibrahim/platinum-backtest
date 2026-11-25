@@ -1,0 +1,153 @@
+{
+  "id": "XPTUSDT",
+  "lowercaseId": "xptusdt",
+  "symbol": "XPT/USDT:USDT",
+  "base": "XPT",
+  "quote": "USDT",
+  "settle": "USDT",
+  "baseId": "XPT",
+  "quoteId": "USDT",
+  "settleId": "USDT",
+  "type": "swap",
+  "spot": false,
+  "margin": false,
+  "swap": true,
+  "future": false,
+  "option": false,
+  "index": null,
+  "active": true,
+  "contract": true,
+  "linear": true,
+  "inverse": false,
+  "subType": "linear",
+  "taker": 0.0005,
+  "maker": 0.0002,
+  "contractSize": 1.0,
+  "expiry": null,
+  "expiryDatetime": null,
+  "strike": null,
+  "optionType": null,
+  "precision": {
+    "amount": 0.001,
+    "price": 0.01,
+    "base": 1e-08,
+    "quote": 1e-08
+  },
+  "limits": {
+    "leverage": {
+      "min": null,
+      "max": null
+    },
+    "amount": {
+      "min": 0.001,
+      "max": 6000.0
+    },
+    "price": {
+      "min": 0.01,
+      "max": 200000.0
+    },
+    "cost": {
+      "min": 5.0,
+      "max": null
+    },
+    "market": {
+      "min": 0.001,
+      "max": 600.0
+    }
+  },
+  "marginModes": {
+    "cross": true,
+    "isolated": true
+  },
+  "created": 1769767200000,
+  "info": {
+    "symbol": "XPTUSDT",
+    "pair": "XPTUSDT",
+    "contractType": "TRADIFI_PERPETUAL",
+    "deliveryDate": 4133404800000,
+    "onboardDate": 1769767200000,
+    "status": "TRADING",
+    "maintMarginPercent": "2.5000",
+    "requiredMarginPercent": "5.0000",
+    "baseAsset": "XPT",
+    "quoteAsset": "USDT",
+    "marginAsset": "USDT",
+    "pricePrecision": 4,
+    "quantityPrecision": 3,
+    "baseAssetPrecision": 8,
+    "quotePrecision": 8,
+    "underlyingType": "COMMODITY",
+    "underlyingSubType": [
+      "TradFi"
+    ],
+    "triggerProtect": "0.0300",
+    "liquidationFee": "0.015000",
+    "marketTakeBound": "0.03",
+    "maxMoveOrderLimit": 10000,
+    "filters": [
+      {
+        "minPrice": "0.0100",
+        "filterType": "PRICE_FILTER",
+        "tickSize": "0.0100",
+        "maxPrice": "200000"
+      },
+      {
+        "maxQty": "6000",
+        "stepSize": "0.001",
+        "filterType": "LOT_SIZE",
+        "minQty": "0.001"
+      },
+      {
+        "maxQty": "600",
+        "minQty": "0.001",
+        "stepSize": "0.001",
+        "filterType": "MARKET_LOT_SIZE"
+      },
+      {
+        "limit": 200,
+        "filterType": "MAX_NUM_ORDERS"
+      },
+      {
+        "notional": "5",
+        "filterType": "MIN_NOTIONAL"
+      },
+      {
+        "multiplierUp": "1.0300",
+        "filterType": "PERCENT_PRICE",
+        "multiplierDown": "0.9700",
+        "multiplierDecimal": "4"
+      },
+      {
+        "positionControlSide": "NONE",
+        "filterType": "POSITION_RISK_CONTROL"
+      }
+    ],
+    "orderTypes": [
+      "LIMIT",
+      "MARKET",
+      "STOP",
+      "STOP_MARKET",
+      "TAKE_PROFIT",
+      "TAKE_PROFIT_MARKET",
+      "TRAILING_STOP_MARKET"
+    ],
+    "timeInForce": [
+      "GTC",
+      "IOC",
+      "FOK",
+      "GTX",
+      "GTD"
+    ],
+    "permissionSets": [
+      "GRID",
+      "COPY",
+      "RPI",
+      "DCA",
+      "PSB"
+    ]
+  },
+  "tierBased": false,
+  "percentage": true,
+  "feeSide": "get",
+  "stock": false
+}
