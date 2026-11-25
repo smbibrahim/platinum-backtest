@@ -1,2 +1,3 @@
-# platinum-backtest
-Isolated backtesting engine for XPTUSDT.P Platinum strategy
+# Platinum XPTUSDT.P Backtesting Lab
+
+Dedicated backtesting workspace for Platinum (XPTUSDT.P).
